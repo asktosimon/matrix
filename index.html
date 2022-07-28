@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+    <div class="bg">
+        <div class="container">
+            <h1>Название ресурса</h1>
+            <h3>Начните путешествие к самому себе</h3>
+            <div>
+              <div class="form">
+                  <input type="text" class="input" placeholder="Полное имя"/>
+                  <input type="text" maxlength="10" class="input js-date" placeholder="Дата рождения"/>
+                  <div class="radio_group">
+                    <span class="label_r">
+                      <input type="radio"  id="huey" name="drone" value="huey" checked>
+                      <label for="huey" class="radio_left">Классическая матрица</label>
+                    </span>
+
+                    <span class="label_r">
+                      <input type="radio" id="money" name="drone" value="huey" class="j_minus_tt" checked>
+                      <label for="money">Матрица "-22"</label>
+                    </span>
+                  </div>
+                  <button class="button j_button">Рассчитать</button>
+              </div>
+        
+              <div class="moon_block">
+                  <div class="left_moon_side">
+                      <div class="field">
+                          <span class="field_h">Дата рождения:</span>
+                          <span class="field_v j_date"></span>
+                        </div>
+                        <div class="field">
+                            <span class="field_h">Возраст:</span>
+                            <span class="field_v j_age"></span>
+                        </div>
+                        <div class="field">
+                            <span class="field_h">Код личной силы:</span>
+                            <span class="field_v j_power"></span>
+                        </div>
+                  </div>
+        
+                  <img class="moon" src="./full moon.png"/>
+        
+                  <div class="right_moon_side">
+                      <div class="field">
+                          <span class="field_h">Лунный день:</span>
+                          <span class="field_v"></span>
+                        </div>
+                  </div>
+              </div>
+        
+              <div id="app"></div>
+
+              <div class="hide">
+                <h3>Персональный расчет</h3>
+              <h4>карта здоровья</h4>
+              <div class="table">
+                  <div class="row head">
+                      <div class="cell">Физика</div>
+                      <div class="cell">Энергия</div>
+                      <div class="cell">Эмоция</div>
+                      <div class="cell">Чакра</div>
+                    </div>  
+                <div>
+                    <div class="row">
+                        <div class="cell j_x1"></div>
+                        <div class="cell j_x2"></div>
+                        <div class="cell j_x9"></div>
+                        <div class="cell">Сахасрара</div>
+                      </div>
+                      <div class="row">
+                        <div class="cell j_x7"></div>
+                        <div class="cell j_x13"></div>
+                        <div class="cell j_x31"></div>
+                        <div class="cell">Аджна</div>
+                      </div>
+                      <div class="row">
+                        <div class="cell j_x6"></div>
+                        <div class="cell j_x12"></div>
+                        <div class="cell j_x32"></div>
+                        <div class="cell">Вишудха</div>
+                      </div>
+                      <div class="row">
+                        <div class="cell j_x8"></div>
+                        <div class="cell j_x14"></div>
+                        <div class="cell j_x33"></div>
+                        <div class="cell">Анахата</div>
+                      </div>
+                      <div class="row">
+                        <div class="cell j_x5"></div>
+                        <div class="cell j_x34"></div>
+                        <div class="cell j_x35"></div>
+                        <div class="cell">Манипура</div>
+                      </div>
+                      <div class="row">
+                        <div class="cell j_x18"></div>
+                        <div class="cell j_x23"></div>
+                        <div class="cell j_x28"></div>
+                        <div class="cell">Свадхистана</div>
+                      </div>
+                      <div class="row">
+                        <div class="cell j_x3"></div>
+                        <div class="cell j_x4"></div>
+                        <div class="cell j_x20"></div>
+                        <div class="cell">Муладхара</div>
+                      </div>
+                      <div class="row">
+                        <div class="cell j_x43"></div>
+                        <div class="cell j_x44"></div>
+                        <div class="cell j_x45"></div>
+                        <div class="cell">Итого</div>
+                      </div>
+                </div>
+              </div>
+        
+              <div class="text-block">
+                <h2>Ваш главный ресурс:</h2>
+        
+                <p>
+                  Опираясь на проявления этих Архетипов
+                  в плюсе, вы раскрываете свой потенциал.
+                  Высшие духовные ценности и материальные
+                  стратегии зашифрованы здесь.
+                </p>
+
+                <div class="res">
+                  <div class="res_flex">
+                    <div class="res_colu">
+                      <span class="res_head">Духовное:</span>
+                      <span class="number j_x36"></span>
+                    </div>
+                    <div class="res_colu">
+                      <span class="res_head">Материальное:</span>
+                      <span class="number j_x37"></span>
+                    </div>
+                  </div>
+                  <div class="res_res">
+                    <span class="number j_x38"></span>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="text-block">
+                <h2>Реализация в социуме/ </br>Родовые программы:</h2>
+        
+                <p>
+                  Сильные стороны вашей Личности,
+                  поведенческие стратегии, которые благоприятно
+                  и эффективно использовать в построении
+                  карьеры и коммуникаций с окружением
+                </p>
+
+                <div class="res">
+                  <div class="res_flex">
+                    <div class="res_colu">
+                      <span class="res_head">М:</span>
+                      <span class="number j_x39"></span>
+                    </div>
+                    <div class="res_colu">
+                      <span class="res_head">Ж:</span>
+                      <span class="number j_x40"></span>
+                    </div>
+                  </div>
+                  <div class="res_res">
+                    <span class="number j_x41"></span>
+                  </div>
+                </div>
+              </div>
+        
+  
+    
+        
+              <div class="text-block">
+                <h2>Предназначение для мира:</h2>
+        
+                <p>
+                  Ваши таланты, которые вы можете отдать
+                  в мир и получить обратно больше
+                </p>
+
+                <div class="res">
+                  <div class="res_flex">
+                    <div class="res_colu">
+          
+                      <span class="number j_x38"></span>
+                    </div>
+                    <div class="res_colu">
+                      <span class="number j_x41"></span>
+                    </div>
+                  </div>
+                  <div class="res_res">
+                    <span class="number j_x42"></span>
+                  </div>
+                </div>
+              </div>
+        
+              
+        
+        
+              <div class="text-block full">
+                <h2>Канал финансов: <span class="big"><span class="j_x18"></span>-<span class="j_x28"></span>-<span class="j_x30"></span></span></h2>
+        
+                <p>
+                  Сферы реализации, вход денег, финансовые стратегии, таланты.
+                </p>
+              </div>
+        
+              <div class="text-block full">
+                <h2>Канал отношений: <span class="big"><span class="j_x23"></span>-<span class="j_x28"></span>-<span class="j_x29"/></span></h2>
+        
+                <p>
+                  Идеальный партнёр, ваши потребности в союзе, стратегии построения гармоничных отношений, сексуальность.
+                </p>
+              </div>
+        
+              <div class="text-block full">
+                <h2>Теневые аспекты (страхи, блоки, негативные программы):</h2>
+        
+                <p>
+                  крадут ваш Ресурс и отнимают энергию. Поработав с этими Архетипами, вы вернёте себе энергию и разморозите глубинный потенциал личности
+                </p>
+              </div>
+        
+              <div class="end">
+                  <div class="text-block full center">
+                      <h2>Путешествие по вашей Матрице</h2>
+              
+                      <p>
+                          Здесь должен быть какой-то поясняющий текст, мотивирующий нажать кнопку
+                      </p>
+                    </div>
+            
+                    <button class="button">Попробовать</button>
+                    <div>
+                      <a href="https://t.me/ksenia_bil" target="_blank" class="link_tg">ksenia_bill</a>
+                      <a href="https://instagram.com/ksenia_bill?igshid=YmMyMTA2M2Y=" target="_blank" class="link_insta">ksenia_bill</a>
+                    </div>
+              </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
