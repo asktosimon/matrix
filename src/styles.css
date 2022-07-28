@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Montserrat";
-  src: url("https://drive.google.com/u/0/uc?id=1YXLuJKnZEl1JSvNP7wG5KgOlVWEiOEl5&export=download");
+  src: url("https://github.com/asktosimon/matrix/blob/master/Montserrat-Regular.ttf?raw=true");
 }
 
 body {
@@ -16,7 +16,7 @@ h1 {
 }
 
 .bg {
-  background-image: url("https://lh3.googleusercontent.com/fife/AAWUweWOtXerNIGWITRddJ0kXFbWeXY_VkbFia81R0sXydSgMF8EXeYexp7q90V0uErEVrEcvi37PnDzRBduib1mXs-vorVdRK-4SFc6Al8tWmVPvGLB2UtLaSM1t6buyG8P-KelbbYkbmaXqdgf4y6ZSZnmbidze865b_lMapcBZl2Jniq-HwnwSeFRBn-NmXruPbKf9LoBP1joo1bYk6NDOQ_J6RTaUrHDeeD7wmdOmsYmdekxUWq1mr4xq6elRotmdJb3QR8L55i1IndoZPppJVYLpFHtx4XDQdS6dHfdJZOfgZolrOLbGiaZv_tX3nDiCFD3FWrV9NyVJUk0P5b7I76-1gBfQ3SIdoBizWj4jTGcMBV95XNLjfDqMCYGGOTi6saQa7hD_fd9U4HTG0bSRUTN69UdPEttH-NQsdaTUQ4Ryfkbis9hB2Lfs_fgja-LkcTnB56lbE8sOam3-iEukwVWS4bDjTw11fnCSCsHTl7fYmDwnemFS0uncS4vK_OrbJ1fNWiP6rIxalQIT43DMps4R-8aQUL8UBlei8n3Gr6kO_awZzS1PEJSW0IDNJLAbrLENAkS40UQPpdRLCiwlnjW9SRX3ABXKq0orBDs1GRYaQOmNyKnRSDlc9nbjK8DLla2aOaqz-O2_FGxoG1kN3Su1ie6tJPQUQxs5oWCCWvRah5YRZooNgQQQVm-VYOWOk5bWSS3CArkVe_cO_HnHwOtuMoIoVwCYHxkE8JDTO6IUVLbYifOe61j2KOP-k69oc3uaF1PZX9FcKWJoflrSUCR42S-j4i1AbKajvnfA4Ty43BR2gcETEhpgrQfKaYD8XNeZHyXWMDuLIS8fxE6RDRX052gxGf7aTYqSMwX6_0YLwJrAw7EiVRvku0OPAyrG8SAw2o8KhV0ciH5-5VNZfl-uu3HSHOveAwYTE2ueVKlVXc8PQke-N4Nbbpi_YxKi6c4poslvXFw9SGWMudTgWF9pxsE1r48k-VK734BTmOta08qaosAhbv8JThcMkjGHoPg4qIbZFjPzjYZanE0T78UwtJLRvxAMxA70H4if0mMJUwApss-vrDn9nr6C0un8i22SFjnREeO2I5H16OwjjPXNUkYd_YMjwcU_osdVihe1uShCOJ8vDtki3GiQR18BEQFfV3ScOPI28RDAEgTU7Iu4DDlaH0EREg9mJ-bWl78sdDq-4XrkF-hwqWIYOdKg7_u7meC4RejJpT945UxSFyl_zYk9T5hsjZFfUAedrt7RSaqTrvA4CNj-ZFzu8M1GcGB5CE=w1023-h969");
+  background-image: url("https://github.com/asktosimon/matrix/blob/master/bg.png?raw=true");
   background-repeat: repeat-y;
   max-width: 1080px;
   margin: 0 auto;
@@ -210,7 +210,7 @@ h1 {
   display: inline-block;
   width: 24.4px;
   height: 106.81px;
-  background-image: url("https://drive.google.com/u/0/uc?id=1-X3V_gV_r8fD7n3EJBJc2PAX5YrDwc_4&export=download");
+  background-image: url("https://github.com/asktosimon/matrix/blob/master/Vector.png?raw=true");
   background-repeat: no-repeat;
   margin: 0 10px;
 }
@@ -290,7 +290,7 @@ h4 {
 #app {
   display: flex;
   margin: 40px 0 0 0;
-  background-image: url("https://drive.google.com/u/0/uc?id=1jwRg5DxXCk-UOCybqqAQsvGjksirbyNQ&export=download");
+  background-image: url("https://github.com/asktosimon/matrix/blob/master/Group 110.png?raw=true");
   background-repeat: no-repeat;
   max-width: 988px;
   max-height: 988px;
@@ -403,7 +403,7 @@ h4 {
   display: inline-block;
   height: 33px;
   width: 33px;
-  background-image: url("https://drive.google.com/u/0/uc?id=1q0SKtXYHW64Oft5-V__lmZW1YH9RZR4B&export=download");
+  background-image: url("https://github.com/asktosimon/matrix/blob/master/tg.png?raw=true");
   background-repeat: no-repeat;
   margin-right: 10px;
 }
@@ -428,7 +428,7 @@ h4 {
   display: inline-block;
   height: 33px;
   width: 33px;
-  background-image: url("https://drive.google.com/u/0/uc?id=17M1GblVSuk7JnGzDA7oDa2cUYZr0uGpY&export=download");
+  background-image: url("https://github.com/asktosimon/matrix/blob/master/insta.png?raw=true");
   background-repeat: no-repeat;
   margin-right: 10px;
 }

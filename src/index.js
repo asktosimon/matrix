@@ -1,5 +1,3 @@
-import "./styles.css";
-
 const app = document.getElementById("app");
 
 app.innerHTML = `
@@ -457,14 +455,14 @@ const date = new Date();
 const phase = getMoonPhase(date.getFullYear(), date.getMonth(), date.getDay());
 const moon = document.querySelector(".moon");
 const dic = {
-  0: "./new moon.png",
-  4: "./full moon.png",
-  1: "./crescent moon.png",
-  2: "./quarter.png",
-  3: "./gibous moon.png",
-  5: "./gibous moon.png",
-  6: "./quarter.png",
-  7: "./crescent moon.png"
+  0: "https://github.com/asktosimon/matrix/blob/master/new moon.png?raw=true",
+  4: "https://github.com/asktosimon/matrix/blob/master/full moon.png?raw=true",
+  1: "https://github.com/asktosimon/matrix/blob/master/crescent moon.png?raw=true",
+  2: "https://github.com/asktosimon/matrix/blob/master/quarter.png?raw=true",
+  3: "https://github.com/asktosimon/matrix/blob/master/gibous moon.png?raw=true",
+  5: "https://github.com/asktosimon/matrix/blob/master/gibous moon.png?raw=true",
+  6: "https://github.com/asktosimon/matrix/blob/master/quarter.png?raw=true",
+  7: "https://github.com/asktosimon/matrix/blob/master/crescent moon.png?raw=true"
 };
 moon.setAttribute("src", dic[phase]);
 const button = document.querySelectorAll(".j_button")[0];
